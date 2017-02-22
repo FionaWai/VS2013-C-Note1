@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<32>SCOPE_IDENTITY (Transact-SQL)</h2>
+<h2>SCOPE_IDENTITY (Transact-SQL)</h2>
 <p>Return the last value inserted into an identity column in the same scope.
 
 <h3>Syntax</h3>
