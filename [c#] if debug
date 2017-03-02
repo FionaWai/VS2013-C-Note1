@@ -1,0 +1,22 @@
+1. try / catch / finally
+
+try
+{
+}
+catch(Exception e)
+{
+#if debug
+    Console.WriteLine(e.ToString());
+#endif
+    throw(e);
+}
+
+2. Assert
+
+#if debug
+    Debug.Assert(value.Length % == 0, " erro message!");// 1st parameter:condition; 2nd parameter: show erro message
+#endif
+
+3. Log
+
+Write a Log file to record actions the programs make. It's a good way to know what was happened in the system.
